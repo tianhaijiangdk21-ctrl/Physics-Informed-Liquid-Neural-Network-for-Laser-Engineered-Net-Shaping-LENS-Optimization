@@ -1,0 +1,10 @@
+data_path: "data/experimental_data.csv"
+batch_size: 16
+epochs: 200
+lr: 0.001
+hidden_dim: 64
+dt: 0.1
+lambda1: 0.1
+lambda2: 0.1
+patience: 20
+save_path: "checkpoints/lnn_best.pth"
